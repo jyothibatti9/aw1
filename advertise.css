@@ -1,0 +1,72 @@
+Element Selector
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 30px;    
+}
+h1 {
+    color: #333;        
+}
+#product-card {
+    width: 350px;
+    height: 550px;
+    margin: 30px auto;
+    padding: 20px; 
+    border: 2px solid #333; 
+    background-color: white;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.description {
+    font-size: 16px;
+    color: #555;
+    padding: 10px;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin: 15px;
+}
+.buy-button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e60000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+ .buy-button:hover {
+    background-color: #380099;
+    transition:1s;
+} 
+  /* .btn {
+    padding: 15px 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 18px;
+
+    animation: move 2s infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+} */
